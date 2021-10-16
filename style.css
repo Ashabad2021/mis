@@ -1,0 +1,27 @@
+
+
+.slider__block {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.slider {
+    display: flex;
+    position: absolute;
+    margin-left: 0px;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move {
+    100% {
+        margin-left: -1200px;
+    }
+}
+.slider__img {
+    width: 200px;
+}
