@@ -11,11 +11,14 @@
     display: flex;
     position: absolute;
     margin-left: 0px;
+   
+
+}
+.slider__move {
     animation-name: move;
     animation-duration: 15s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-
 }
 @keyframes move {
     100% {
